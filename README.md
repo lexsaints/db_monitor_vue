@@ -2,6 +2,15 @@
 
 > 基于 iview-admin 2.5.0
 
+安装nodejs 
+下载node安装包 wget https://nodejs.org/dist/v10.16.0/node-v10.16.0-linux-x64.tar.xz
+下载解压，将node的bin加入到环境变量即可
+
+使用npm安装yarn
+npm install -g yarn
+
+配置yarn淘宝镜像源
+yarn config set registry https://registry.npm.taobao.org
 
 ## 运行
 
@@ -28,6 +37,7 @@ yarn run dev
 > http://122.51.204.250:8080/
 
 > 账户 admin 密码 111111
+
 
 ![demo1](src/demo/demo1.jpg)
 ![demo2](src/demo/demo2.jpg)
